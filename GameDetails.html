@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style_game.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="movieApp.html"><img src="logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="movieApp.html"><i class="fa fa-film"></i>&nbsp; Movies</a>
+                </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="GameApp.html"><i class="fa fa-gamepad"></i>&nbsp; Games</a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+
+
+    <div class="container-fluid pt-2" style="background: rgba(0,0,0,0.6); margin-top: 100px;">
+            <div id="GameDetails"  class="well"> 
+               
+            </div>
+        </div>
+        <footer style="color:white;text-align:center;background:#333;position: absolute;bottom:0px;width: 100vw;">
+          <p class="mt-3">&copy;The Movie Db API Provider</p>
+      </footer>
+
+
+
+
+
+    <script src="game.js"></script>
+    <script>
+        getGameDetails();
+    </script>
+</body>
+</html>    
